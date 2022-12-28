@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&display=swap'); 
+/* fonte importada */
+*{
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0D0D0D;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+main.generator{
+    max-width: 480px;
+    margin: 10px 0;
+}
+main.generator span{
+    font-size: 20px;
+}
+
+main.generator input.slide{
+    -webkit-appearance: none;
+    appearance: none;
+    background: linear-gradient(315deg, #a6a6a6 26%, #5a5a58 81%);
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+main.generator input.slide::-moz-range-thumb{
+    width: 15px;
+    height: 14px;
+    border-radius: 50%;
+    background:#1b1b1b;
+}
+h1{
+    font-family: 'Cinzel', serif;
+    font-size: 3em;
+    max-width: 600px;
+    margin-bottom: 25px;
+}
+span{
+    font: normal 1em;
+    color: #D8D9D7;
+}
+
+button.button-cta {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #D8D9D7;
+    text-decoration: none;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;  
+    border: none;
+    height: 50px;
+}
+
+button.button-cta:hover {
+    color:#595958;
+}
+div.containerPassword{
+    max-width: 480px;
+    margin: 15px 0; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+div.containerPassword span.title-password{
+    margin-bottom: 8px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+div.containerPassword span.the-password{
+    height: 50px;
+    background-color: #5959582f;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.4s;
+}
+div.containerPassword span.the-password:hover{
+    transform: scale(1.04);
+}
+div.containerPassword span.tooltip{
+    position: relative;
+    top: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+    font-size: 1.1em;
+}
+div.containerPassword:hover span.tooltip{
+    visibility: visible;
+    bottom: 40px;
+    opacity: 1;
+}
+div.hide{
+    display: none;
+}
+/*
+/*
+
+/*
+
+/*
+/*
+*/
