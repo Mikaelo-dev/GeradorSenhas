@@ -23,3 +23,6 @@ Paleta de core do site -> [Adobe](https://color.adobe.com/search?q=monochromatic
 Favicon do site ->  [IconArchive](https://iconarchive.com/search?q=password)
 
 Fonte usada -> [Google fonts](https://fonts.google.com/specimen/Cinzel?query=cinzel)
+
+## Veja no ar
+Clicando [aqui](https://mikaelo-dev.github.io/GeradorSenhas/)
